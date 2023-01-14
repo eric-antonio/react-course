@@ -1,1 +1,1 @@
-ReactDOM.render(<h1>Hello Everyone! </h1>, window.document.getElementById("root"))
+ReactDOM.render(<h1>Eu irei me tornar mau a Recat Js! </h1>,window.document.getElementById('root'))
