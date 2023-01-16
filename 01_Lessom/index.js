@@ -1,1 +1,6 @@
-ReactDOM.render(<h1>Eu irei me tornar mau a Recat Js! </h1>,window.document.getElementById('root'))
+function Car(){
+    return <h2>I'm Learning Recat Js!</h2>
+}
+
+const root =  ReactDOM.createRoot(window.document.getElementById('root'))
+root.render(<Car/>)
