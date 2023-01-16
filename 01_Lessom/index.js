@@ -1,4 +1,2 @@
-const msgEl =  window.document.getElementById("root")
-const h1 =  window.document.createElement("h1")
-h1.textContent = "This is an imperative way to program!"
-msgEl.append(h1)
+
+ReactDOM.render(<h1 className="header">This is The power of ReactJs!</h1>, window.document.getElementById("root"))
