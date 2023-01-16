@@ -1,8 +1,16 @@
-const headerEl = (
+// ? JSX
+const navEl = (
     <div>
-        <h1 className="header">This is The power of ReactJs!</h1>
-        <p>Ohhhhh!</p>
+        <nav>
+            <h1>Kurenga.com</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </div>
-    )
-ReactDOM.render(headerEl, window.document.getElementById("root"))
+    
+)
 
+ReactDOM.render(navEl,window.document.getElementById("root"))
