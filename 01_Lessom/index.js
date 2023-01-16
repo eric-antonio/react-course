@@ -1,16 +1,14 @@
-// ? JSX
-const navEl = (
+const page = (
     <div>
-        <nav>
-            <h1>Kurenga.com</h1>
-            <ul>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </div>
-    
-)
+        <h1>My awesome website in React </h1>
+        <h3>Reasons Wy i love React </h3>
+        <ol>
+            <li>It's composable</li>
+            <li>It's declarative</li>
+            <li>It's declarative</li>
+            <li>It's actively maintained by skilled people</li>
+        </ol>
 
-ReactDOM.render(navEl,window.document.getElementById("root"))
+    </div>
+)
+ReactDOM.render(page,window.document.getElementById("root"))
