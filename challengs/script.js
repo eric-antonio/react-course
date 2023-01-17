@@ -2,11 +2,16 @@
 function HeaderEl(){
     return (
         <header>
-            
-            <na>
+            <na className="nav">
                 <img src="react-logo.png" alt="React JS"  width="40px"/>
-                <h1>Reasons I'm excited to learn React</h1>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+               
             </na>
+
         </header>
        
     )
@@ -16,6 +21,7 @@ function HeaderEl(){
 function MainContent(){
     return(
         <div>
+             <h1>Reasons I'm excited to learn React</h1>
         <ol>
             <li>I want to become good in React</li>
             <li>React it's awesome </li>
