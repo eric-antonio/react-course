@@ -1,4 +1,4 @@
-function temporaryName(){
+function TemporaryName(){
     return(
         <div>
         <img id="image" src="react-logo.png" width="40px"></img>
@@ -19,4 +19,4 @@ function temporaryName(){
 }
 
 
-ReactDOM.render(temporaryName(),window.document.getElementById("root"))
+ReactDOM.render(<TemporaryName/>,window.document.getElementById("root"))
