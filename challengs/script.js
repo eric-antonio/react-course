@@ -3,7 +3,7 @@ function HeaderEl(){
     return (
         <header>
             <na className="nav">
-                <img src="react-logo.png" alt="React JS"  width="40px"/>
+                <img src="react-logo.png" alt="React JS"  className="img-logo"/>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
