@@ -1,22 +1,60 @@
-function TemporaryName(){
+// * Header Content 
+function HeaderEl(){
+    return (
+        <header>
+            <na className="nav">
+                <img src="react-logo.png" alt="React JS"  className="img-logo"/>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+               
+            </na>
+
+        </header>
+       
+    )
+}
+
+// *Main Content 
+function MainContent(){
     return(
         <div>
-        <img id="image" src="react-logo.png" width="40px"></img>
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>Was first released in 2013</li>
-            <li>was originally created bj jordan walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>In maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile
-                apps.
-            </li>
-
-        </ul>
+             <h1>Reasons I'm excited to learn React</h1>
+        <ol>
+            <li>I want to become good in React</li>
+            <li>React it's awesome </li>
+        </ol>
     </div>
-
     )
 }
 
 
-ReactDOM.render(<TemporaryName/>,window.document.getElementById("root"))
+// * Footer Element 
+function FooterEL(){
+    return(
+        <footer>
+            <small>
+                <a href="http://github.com/eric-antonio">@2023 eric-antonio</a>
+                development. All rights reserved.
+            </small>
+            
+        </footer>
+    )
+}
+
+function PageComponent(){
+    return (
+        <di>
+            <HeaderEl/>
+            <MainContent/>
+            <FooterEL/>
+        </di>
+        
+    )
+}
+
+
+// * This the way i can Apply components in to my page!
+ReactDOM.render(<PageComponent/>, window.document.getElementById("root"))
