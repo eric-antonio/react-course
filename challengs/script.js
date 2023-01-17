@@ -1,4 +1,4 @@
- function HeaderEl(){
+function HeaderEl(){
     return (
         <na>
             <img src="react-logo.png" alt="React JS"  width="40px"/>
@@ -6,7 +6,7 @@
     )
  }
 
- function PageComponent(){
+function PageComponent(){
     return (
     <div>
         <ol>
@@ -17,7 +17,7 @@
     )
  }
 
- function FooterEL(){
+function FooterEL(){
     return(
         <footer>
             <a href="http://github.com/eric-antonio">@eric-antonio</a> 
