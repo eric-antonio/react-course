@@ -1,6 +1,6 @@
-const pageEl = (
-    
-    <div>
+function temporaryName(){
+    return(
+        <div>
         <img id="image" src="react-logo.png" width="40px"></img>
         <h1>Fun facts about React</h1>
         <ul>
@@ -15,7 +15,8 @@ const pageEl = (
         </ul>
     </div>
 
-)
+    )
+}
 
 
-ReactDOM.render(pageEl,window.document.getElementById("root"))
+ReactDOM.render(temporaryName(),window.document.getElementById("root"))
