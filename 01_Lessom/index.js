@@ -38,7 +38,6 @@ function MainContent(){
     )
 }
 
-
 // * Footer Element 
 function FooterEL(){
     return(
