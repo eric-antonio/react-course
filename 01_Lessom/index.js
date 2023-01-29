@@ -62,6 +62,5 @@ function PageComponent(){
     )
 }
 
-
 // * This the way i can Apply components in to my page!
 ReactDOM.render(<PageComponent/>, window.document.getElementById("root"))
