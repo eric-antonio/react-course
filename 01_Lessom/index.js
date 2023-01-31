@@ -1,21 +1,3 @@
-// * Header Content 
-function HeaderEl(){
-    return (
-        <header>
-            <na className="nav">
-                <img src="react-logo.png" alt="React JS"  className="img-logo"/>
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-               
-            </na>
-
-        </header>
-       
-    )
-}
 
 // *Main Content 
 function MainContent(){
@@ -29,7 +11,6 @@ function MainContent(){
                 <li>I want to become good in React</li>
                 <li>React it's awesome </li>
                 <li>React it's the best JS Frame Work </li>
-                
             </ol>
 
         </div>
@@ -52,7 +33,7 @@ function FooterEL(){
 function PageComponent(){
     return (
         <di>
-            <HeaderEl/>
+            {/* <HeaderEl/> */}
             <MainContent/>
             <FooterEL/>
         </di>
