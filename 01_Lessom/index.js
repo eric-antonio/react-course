@@ -41,9 +41,9 @@ function MainContent(){
 function FooterEL(){
     return(
         <footer >
-            <small>
+            <small className="footer-small">
                 <a href="http://github.com/eric-antonio"> @2023 eric-antonio   </a> 
-                development. All rights reserved.
+                Development. All rights reserved.
             </small>
             
         </footer>

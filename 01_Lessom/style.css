@@ -16,6 +16,11 @@
     padding: 10px;
 }
 
+.footer-small{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 footer{
     background-color: gray;
     text-align: center;
@@ -24,9 +29,9 @@ footer{
 }
 a{
     text-decoration: none;
-    color: rgb(94, 191, 255);
+    color: rgb(96, 191, 255);
    
 }
 a:hover{
-    color: rgb(44, 191, 255);
+    color: rgba(4, 192, 255, 0.404);
 }
