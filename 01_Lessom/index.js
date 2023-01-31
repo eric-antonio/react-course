@@ -23,8 +23,6 @@ function MainContent(){
         <div>
              <h1>Reasons I'm excited to learn React</h1>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum molestias blanditiis architecto iusto mollitia fuga eum, unde esse saepe accusamus non temporibus dolore, nisi vel dolorem porro. Eos, ea maxime!</p>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum molestias blanditiis architecto iusto mollitia fuga eum, unde esse saepe accusamus non temporibus dolore, nisi vel dolorem porro. Eos, ea maxime!</p>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum molestias blanditiis architecto iusto mollitia fuga eum, unde esse saepe accusamus non temporibus dolore, nisi vel dolorem porro. Eos, ea maxime!</p>
             <ol>
                 <li>I want to become good in React</li>
                 <li>React it's awesome </li>
@@ -34,15 +32,7 @@ function MainContent(){
                 <li>React it's the best JS Frame Work </li>
                 
             </ol>
-            <ol>
-                <li>I want to become good in React</li>
-                <li>React it's awesome </li>
-                <li>React it's the best JS Frame Work </li>
-                <li>I want to become good in React</li>
-                <li>React it's awesome </li>
-                <li>React it's the best JS Frame Work </li>
-                
-            </ol>
+
         </div>
     )
 }
@@ -50,9 +40,9 @@ function MainContent(){
 // * Footer Element 
 function FooterEL(){
     return(
-        <footer>
+        <footer >
             <small>
-                <a href="http://github.com/eric-antonio">@2023 eric-antonio</a>
+                <a href="http://github.com/eric-antonio"> @2023 eric-antonio   </a> 
                 development. All rights reserved.
             </small>
             
